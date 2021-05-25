@@ -1,6 +1,6 @@
 {
   "name": "zrwsdele-ui",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Component Library for Vue.js.",
   "main": "lib/zrwsdele-ui.common.js",
   "files": [
