@@ -95,11 +95,11 @@
         const { isLeaf, isChecked, config } = this;
         const { checkStrictly, multiple, multipleAndIsleaf } = config;
 
-        if (multipleAndIsleaf) {
+        if (multipleAndIsleaf === true) {
           if (multiple && isLeaf) {
             return this.renderCheckbox(h);
           }
-        } else if (multiple) {
+        } else if (multipleAndIsleaf === false) {
           if (multiple) {
             return this.renderCheckbox(h);
           }
