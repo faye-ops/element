@@ -93,10 +93,16 @@
 
       renderPrefix(h) {
         const { isLeaf, isChecked, config } = this;
-        const { checkStrictly, multiple } = config;
+        const { checkStrictly, multiple, multipleAndIsleaf } = config;
 
-        if (multiple) {
-          return this.renderCheckbox(h);
+        if (multipleAndIsleaf) {
+          if(multiple && isLeaf) {
+            return this.renderCheckbox(h);
+          }
+        }else if (multiple) {
+          if(multiple) {
+            return this.renderCheckbox(h);
+          }
         } else if (checkStrictly) {
           return this.renderRadio(h);
         } else if (isLeaf && isChecked) {
@@ -201,7 +207,7 @@
         config,
         nodeId
       } = this;
-      const { expandTrigger, checkStrictly, multiple } = config;
+      const { expandTrigger, checkStrictly, multiple multipleAndIsleaf} = config;
       const disabled = !checkStrictly && isDisabled;
       const events = { on: {} };
 
