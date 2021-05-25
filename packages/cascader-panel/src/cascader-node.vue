@@ -102,11 +102,11 @@
         } else if (multipleAndIsleaf === false) {
           if (multiple) {
             return this.renderCheckbox(h);
+          } else if (checkStrictly) {
+            return this.renderRadio(h);
+          } else if (isLeaf && isChecked) {
+            return this.renderCheckIcon(h);
           }
-        } else if (checkStrictly) {
-          return this.renderRadio(h);
-        } else if (isLeaf && isChecked) {
-          return this.renderCheckIcon(h);
         }
 
         return null;
