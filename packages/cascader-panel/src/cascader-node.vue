@@ -106,7 +106,6 @@
             return this.renderRadio(h);
           } else if (isLeaf && isChecked) {
             return this.renderCheckIcon(h);
-            //1
           }
         }
 
