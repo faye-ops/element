@@ -112,21 +112,21 @@
 </template>
 
 <script>
-import Popper from 'element-ui/src/utils/vue-popper';
-import Clickoutside from 'element-ui/src/utils/clickoutside';
-import Emitter from 'element-ui/src/mixins/emitter';
-import Locale from 'element-ui/src/mixins/locale';
-import Migrating from 'element-ui/src/mixins/migrating';
-import ElInput from 'element-ui/packages/input';
-import ElTag from 'element-ui/packages/tag';
-import ElScrollbar from 'element-ui/packages/scrollbar';
-import ElCascaderPanel from 'element-ui/packages/cascader-panel';
-import AriaUtils from 'element-ui/src/utils/aria-utils';
-import { t } from 'element-ui/src/locale';
-import { isEqual, isEmpty, kebabCase } from 'element-ui/src/utils/util';
-import { isUndefined, isFunction } from 'element-ui/src/utils/types';
-import { isDef } from 'element-ui/src/utils/shared';
-import { addResizeListener, removeResizeListener } from 'element-ui/src/utils/resize-event';
+import Popper from 'zrwsdele-ui/src/utils/vue-popper';
+import Clickoutside from 'zrwsdele-ui/src/utils/clickoutside';
+import Emitter from 'zrwsdele-ui/src/mixins/emitter';
+import Locale from 'zrwsdele-ui/src/mixins/locale';
+import Migrating from 'zrwsdele-ui/src/mixins/migrating';
+import ElInput from 'zrwsdele-ui/packages/input';
+import ElTag from 'zrwsdele-ui/packages/tag';
+import ElScrollbar from 'zrwsdele-ui/packages/scrollbar';
+import ElCascaderPanel from 'zrwsdele-ui/packages/cascader-panel';
+import AriaUtils from 'zrwsdele-ui/src/utils/aria-utils';
+import { t } from 'zrwsdele-ui/src/locale';
+import { isEqual, isEmpty, kebabCase } from 'zrwsdele-ui/src/utils/util';
+import { isUndefined, isFunction } from 'zrwsdele-ui/src/utils/types';
+import { isDef } from 'zrwsdele-ui/src/utils/shared';
+import { addResizeListener, removeResizeListener } from 'zrwsdele-ui/src/utils/resize-event';
 import debounce from 'throttle-debounce/debounce';
 
 const { keys: KeyCode } = AriaUtils;

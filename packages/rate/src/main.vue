@@ -33,9 +33,9 @@
 </template>
 
 <script>
-  import { hasClass } from 'element-ui/src/utils/dom';
-  import { isObject } from 'element-ui/src/utils/types';
-  import Migrating from 'element-ui/src/mixins/migrating';
+  import { hasClass } from 'zrwsdele-ui/src/utils/dom';
+  import { isObject } from 'zrwsdele-ui/src/utils/types';
+  import Migrating from 'zrwsdele-ui/src/mixins/migrating';
 
   export default {
     name: 'ElRate',

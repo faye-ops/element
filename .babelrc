@@ -29,9 +29,9 @@
       ],
       "plugins": [
         ["module-resolver", {
-          "root": ["element-ui"],
+          "root": ["zrwsdele-ui"],
           "alias": {
-            "element-ui/src": "zrwsdele-ui/lib"
+            "zrwsdele-ui/src": "zrwsdele-ui/lib"
           }
         }]
       ]

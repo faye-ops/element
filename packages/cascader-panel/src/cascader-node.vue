@@ -1,7 +1,7 @@
 <script>
-  import ElCheckbox from 'element-ui/packages/checkbox';
-  import ElRadio from 'element-ui/packages/radio';
-  import { isEqual } from 'element-ui/src/utils/util';
+  import ElCheckbox from 'zrwsdele-ui/packages/checkbox';
+  import ElRadio from 'zrwsdele-ui/packages/radio';
+  import { isEqual } from 'zrwsdele-ui/src/utils/util';
 
   const stopPropagation = e => e.stopPropagation();
 
@@ -96,11 +96,11 @@
         const { checkStrictly, multiple, multipleAndIsleaf } = config;
 
         if (multipleAndIsleaf) {
-          if(multiple && isLeaf) {
+          if (multiple && isLeaf) {
             return this.renderCheckbox(h);
           }
-        }else if (multiple) {
-          if(multiple) {
+        } else if (multiple) {
+          if (multiple) {
             return this.renderCheckbox(h);
           }
         } else if (checkStrictly) {
@@ -207,7 +207,7 @@
         config,
         nodeId
       } = this;
-      const { expandTrigger, checkStrictly, multiple multipleAndIsleaf} = config;
+      const { expandTrigger, checkStrictly, multiple } = config;
       const disabled = !checkStrictly && isDisabled;
       const events = { on: {} };
 

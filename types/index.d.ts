@@ -1,4 +1,4 @@
-export * from './element-ui'
+export * from './zrwsdele-ui'
 
-import * as ElementUI from './element-ui'
+import * as ElementUI from './zrwsdele-ui'
 export default ElementUI

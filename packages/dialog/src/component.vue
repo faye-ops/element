@@ -38,9 +38,9 @@
 </template>
 
 <script>
-  import Popup from 'element-ui/src/utils/popup';
-  import Migrating from 'element-ui/src/mixins/migrating';
-  import emitter from 'element-ui/src/mixins/emitter';
+  import Popup from 'zrwsdele-ui/src/utils/popup';
+  import Migrating from 'zrwsdele-ui/src/mixins/migrating';
+  import emitter from 'zrwsdele-ui/src/mixins/emitter';
 
   export default {
     name: 'ElDialog',

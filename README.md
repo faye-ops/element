@@ -8,13 +8,13 @@ Element will stay with Vue 2.x
 
 ## Install
 ```shell
-npm install element-ui -S
+npm install zrwsdele-ui -S
 ```
 
 ## Quick Start
 ``` javascript
 import Vue from 'vue'
-import Element from 'element-ui'
+import Element from 'zrwsdele-ui'
 
 Vue.use(Element)
 
@@ -23,7 +23,7 @@ import {
   Select,
   Button
   // ...
-} from 'element-ui'
+} from 'zrwsdele-ui'
 
 Vue.component(Select.name, Select)
 Vue.component(Button.name, Button)
